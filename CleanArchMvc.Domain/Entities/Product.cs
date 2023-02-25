@@ -59,6 +59,6 @@ namespace CleanArchMvc.Domain.Entities
         }
 
         public int CategoryId { get; set; }
-        public Product Category { get; set; }
+        public Category Category { get; set; }
     }
 }
